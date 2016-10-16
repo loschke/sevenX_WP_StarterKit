@@ -39,6 +39,8 @@
       "url": "https://github.com/loschke/sevenX_WPTheme_skeleton.git"
     }
   ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
     "php": ">=5.6",
     "composer/installers": "~1.0.12",
@@ -54,11 +56,6 @@
     "wp-sync-db/wp-sync-db": "*",
     "wp-sync-db/wp-sync-db-media-files": "1.1.*"
   },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "require-dev": {
-    "squizlabs/php_codesniffer": "^2.5.1"
-  },
   "extra": {
     "installer-paths": {
       "content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
@@ -66,10 +63,5 @@
       "content/themes/{$name}/": ["type:wordpress-theme"]
     },
     "wordpress-install-dir": "core"
-  },
-  "scripts": {
-    "test": [
-      "vendor/bin/phpcs --ignore=web/wp/,vendor/ -n -s ."
-    ]
   }
 }
