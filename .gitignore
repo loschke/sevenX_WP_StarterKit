@@ -1,0 +1,36 @@
+
+# Standard Project.ignore by sevenX ->
+
+#----------------------------
+# ignore Project files
+#----------------------------
+# Folders
+_assets
+!.gitkeep
+# Files
+xampp.json
+.env
+
+#----------------------------
+# ignore Application files
+#----------------------------
+# IDE Project Files -> PHPSTORM
+*.iml
+.idea/
+
+# ATOM FTP configuration
+deployment-config.json
+
+# LESS/CSS Compiler
+prepros.cfg
+
+# Dreamweaver Notes
+_notes
+_mmServerScripts
+
+# Windows Thumbnail
+Thumbs.db
+
+# Mac DS Store
+.DS_Store
+

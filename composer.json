@@ -1,0 +1,70 @@
+{
+  "name": "sevenx/wpdevkit",
+  "type": "project",
+  "license": "MIT",
+  "description": "WordPress boilerplate with modern development tools, easier configuration and an improved folder structure. Based on Roots/Bedrock",
+  "homepage": "https://sevenx.de",
+  "authors": [
+    {
+      "name": "Rico Loschke",
+      "email": "hello@sevenx.de",
+      "homepage": "https://github.com/loschke"
+    }
+  ],
+  "keywords": [
+    "bedrock", "sevenx", "wordpress", "stack", "composer", "wp"
+  ],
+  "config": {
+    "preferred-install": "dist"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "composer",
+      "url": "https://packagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/loschke/sevenX_Dashboard.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/loschke/sevenX_CustomLoader.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/loschke/sevenX_WPTheme_skeleton.git"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "composer/installers": "~1.0.12",
+    "vlucas/phpdotenv": "^2.0.1",
+    "johnpbloch/wordpress": "4.6.1",
+    "oscarotero/env": "^1.0",
+    "roots/wp-password-bcrypt": "1.0.*",
+    "wpackagist-theme/twentysixteen": "1.3",
+    "sevenx/7x-dashboard": "0.1.*",
+    "sevenx/7x-loader": "0.1.*",
+    "sevenx/7x-wp-skeleton": "0.1.*"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^2.5.1"
+  },
+  "extra": {
+    "installer-paths": {
+      "content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "content/plugins/{$name}/": ["type:wordpress-plugin"],
+      "content/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "core"
+  },
+  "scripts": {
+    "test": [
+      "vendor/bin/phpcs --ignore=web/wp/,vendor/ -n -s ."
+    ]
+  }
+}
