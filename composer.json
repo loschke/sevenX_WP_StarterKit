@@ -59,6 +59,6 @@
       "content/plugins/{$name}/": ["type:wordpress-plugin"],
       "content/themes/{$name}/": ["type:wordpress-theme"]
     },
-    "wordpress-install-dir": "core"
+    "wordpress-install-dir": "wp"
   }
 }
