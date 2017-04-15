@@ -1,1 +1,2 @@
-# sevenX_CustomLoader
+# sevenX WP_StarterKit
+Wordpress Composer Projekt Skeleton
