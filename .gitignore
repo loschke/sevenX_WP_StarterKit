@@ -5,7 +5,6 @@
 # ignore Project files
 #----------------------------
 # Folders
-_assets
 !.gitkeep
 # Files
 xampp.json

@@ -48,13 +48,10 @@
     "johnpbloch/wordpress": "4.6.1",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.*",
-    "wpackagist-theme/twentysixteen": "1.3",
+    "wpackagist-theme/generatepress": "1.3.*",
     "sevenx/7x-dashboard": "0.1.*",
     "sevenx/7x-loader": "0.1.*",
-    "sevenx/7x-wp-skeleton": "0.1.*",
-    "afragen/github-updater": "5.6.*",
-    "wp-sync-db/wp-sync-db": "*",
-    "wp-sync-db/wp-sync-db-media-files": "1.1.*"
+    "sevenx/7x-wp-skeleton": "0.1.*"
   },
   "extra": {
     "installer-paths": {

@@ -1,0 +1,8 @@
+## Utilities
+Custom Post Type UI -> https://wordpress.org/plugins/custom-post-type-ui/screenshots/
+Regenerate Thumbnails -> https://wordpress.org/plugins/regenerate-thumbnails/ -> "wpackagist-plugin/regenerate-thumbnails": "2.2.6"
+User Switching -> https://wordpress.org/plugins/user-switching/ -> "wpackagist-plugin/user-switching": "1.0.9"
+Simply Show Hooks -> https://wordpress.org/plugins/simply-show-hooks/ -> "wpackagist-plugin/simply-show-hooks": "1.2.1"
+Caldera Forms -> https://wordpress.org/plugins/caldera-forms/ -> "wpackagist-plugin/caldera-forms": "1.5.0.8"
+iThems Security -> https://wordpress.org/plugins/better-wp-security/ -> "wpackagist-plugin/better-wp-security": "6.2.1"
+Updraftplus -> https://wordpress.org/plugins/updraftplus/ -> "wpackagist-plugin/updraftplus": "1.12.40"

@@ -1,1 +1,1 @@
-# sevenX_WP_StarterKit
+# sevenX_CustomLoader
