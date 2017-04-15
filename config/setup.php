@@ -78,7 +78,7 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
 // * Changed for security reasons
-$table_prefix = env('DB_PREFIX') ?: '7x_';
+$table_prefix = env('DB_PREFIX') ?: 'uniqueprefix_';
 define( 'CUSTOM_USER_TABLE',      $table_prefix . 'authorized_user' );
 define( 'CUSTOM_USER_META_TABLE', $table_prefix . 'authorized_usermeta' );
 
@@ -194,5 +194,5 @@ define('DISABLE_WP_CRON', env('DISABLE_WP_CRON') ?: false);
 // Bootstrap Wordpress
 // #####################################
 if (!defined('ABSPATH')) {
-    define('ABSPATH', $webroot_dir . '/core/');
+    define('ABSPATH', $webroot_dir . '/wp/');
 }
